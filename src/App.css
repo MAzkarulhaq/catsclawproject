@@ -1,0 +1,43 @@
+.btn-sp {
+ 
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.9rem 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.2rem solid #0f172b;
+  background-color: #0f172b;
+  color: #fff;
+  border-radius: 2.5rem;
+  min-width: 15.6rem;
+  text-align: center;
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+}
+
+.btn:hover {
+background-color: #fff;
+color: #0f172b;
+}
+
+.banner-btn .btn:first-child {
+margin-right: 53px;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+outline: 0;
+box-shadow: none;
+}
+
+.banner-btn {
+margin-top: 40px;
+}
